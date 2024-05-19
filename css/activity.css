@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+     background: linear-gradient(to bottom, rgba(222,158,12,0), rgba(246,122,50,1));
+    height: 1900px;
+    
+}
+
+.va{
+    width: 100%;
+}
+
+.h1{
+    text-align: center;
+}
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #d0241c;
+    text-decoration: none;
+}
+.nav_links{
+    list-style: none;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 25px;
+    
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #941b14;
+}
+button{
+    padding: 9px 25px;
+    margin-left: 900px;
+    margin-top: 20px;
+    background-color: rgba(249,135,125,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+   background-color: rgba(249,135,125,0.8); 
+}
+header{
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+   
+}
+.logo{
+    cursor: pointer;
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+tr,th,td{
+    border:  1px solid lavender;
+    padding: 5px;
+}
+th{
+    color: black;
+    text-shadow: 1px 1px white;
+}
+table{
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+#break{
+    background-color: floralwhite;
+}
+.A{
+    color: red;
+}
+table{
+    align-content: center;
+    width: 30%;
+}
+
+.special{
+    margin-right: 280px;
+    
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(uni-sans.heavy-caps.otf) format("opentype");
+}
+
+.ch{
+    
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
